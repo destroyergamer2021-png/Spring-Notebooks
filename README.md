@@ -52,18 +52,18 @@ Desenvolver uma API REST completa utilizando Spring Boot, seguindo o modelo da A
 
 ## 📦 Estrutura do Projeto
 
-projeto-api-Notebooks/
+projeto-api-[tema]/
 ├── pom.xml
-├── README.md
+├── README.md (documentação da sua API)
 ├── src/
 │   └── main/
 │       ├── java/
 │       │   └── br/com/fecaf/
 │       │       ├── App.java
 │       │       ├── model/
-│       │       │   └── Notebooks.java
+│       │       │   └── [SuaEntidade].java
 │       │       └── controller/
-│       │           └── NotebooksController.java
+│       │           └── [SeuController].java
 │       └── resources/
 │           └── data/
-│               └── notebooks.json
+│               └── [dados].json
